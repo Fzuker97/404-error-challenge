@@ -1,0 +1,127 @@
+.header{
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    left: 77px;
+    top: 40px;
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    
+}
+.image{
+    position: absolute;
+    left: 77px;
+    top: 245px;
+}
+
+.container h1{
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    left: 735px;
+    top: 265px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+.container h2{
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    left: 736px;
+    top: 491px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+}
+.btn{
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top: 663px;
+    background-color: black;
+}
+
+.home{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot{
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 577px;
+    top: 1039px;
+ 
+}
+
+@media (max-width:768px){
+    .header{
+        position: absolute;
+        width: 133px;
+        height: 25px;
+        left: 24px;
+        top: 20px;
+    }
+    
+    .image{
+        position: absolute;
+        width: 500px;
+    }
+    .container h1{
+        position: absolute;
+        width: 350px;
+        height: 142px;
+        left: 24px;
+        top: 407px;
+        font-size: 48px;
+        line-height: 71px;
+    }
+    .container h2{
+        position: absolute;
+        width: 328px;
+        height: 81px;
+        left: 23px;
+        top: 579px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .btn{
+        position: absolute;
+        width: 216px;
+        height: 68px;
+        left: 24px;
+        top: 726px;
+    }
+    .foot{
+        position: absolute;
+        width: 287px;
+        height: 17px;
+        left: 46px;
+        top: 908px;
+    }
+
+}
